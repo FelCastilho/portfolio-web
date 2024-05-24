@@ -1,0 +1,134 @@
+.profile{
+    background-color: #141414;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 15vh);
+    font-family: 'Sora', sans-serif;
+}
+
+.icon-img-desktop{
+    max-width: 100%;
+}
+
+.profile-text{
+    color: #fff;
+}
+
+.profile h1{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+    color: #00D1FF;
+}
+
+.profile p:not(:first-child) {
+    font-size: 1.7rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+}
+
+.container-btn-profile{
+    display: flex;
+    gap: 20px;
+}
+
+.container-btn-profile a{
+    gap: 5px;
+    text-decoration: none;
+}
+
+.btn-curriculo{
+    border: 2px solid #0094FF;
+    color: #0094FF;
+    padding: 14px;
+    border-radius: 70px;     
+    font-family: 'Sora', sans-serif;   
+    font-weight: 600;
+    transition: 0.2s ease-in-out all;
+    display: flex;
+    align-items: center;
+}
+
+.btn-curriculo:hover{
+    background-color: #0094FF;
+    border: 2px solid #0094FF;
+    color: #fff;
+    padding: 14px;
+    font-family: 'Sora', sans-serif;
+    
+}
+
+.btn-certificados{
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 14px;
+    border-radius: 70px;
+    font-weight: 600;     
+    font-family: 'Sora', sans-serif; 
+    transition: 0.2s ease-in-out all;
+    display: flex;
+    align-items: center;  
+}
+
+.btn-certificados:hover{
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #141414;
+    padding: 14px;
+    font-family: 'Sora', sans-serif;
+}
+
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Sora', sans-serif;
+}
+
+.container-about{
+    background-color: #181818;
+    border-radius: 15px;
+    height: 60vh;
+    width: 65vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-about-text{
+    max-width: 40%;
+}
+
+.hero-about-icons{
+    margin-top: 20px;
+    display: flex;
+    gap: 24px;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px){
+
+    .profile{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .icon-img-desktop{
+        display: none;
+    }
+
+    .profile-text h1{
+        font-size: 2.5rem;
+    }   
+
+    .profile-text:not(:first-child) {
+        font-size: 1.2rem;
+        letter-spacing: 1.5px;
+        margin-bottom: 40px;
+    }
+    
+}

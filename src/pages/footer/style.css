@@ -1,0 +1,31 @@
+footer{
+    height: 20vh;
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.strong{
+    color: #00D1FF;
+}
+
+.name{
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+
+@media screen and (max-width: 768px){
+    footer{
+        flex-direction: column;
+    }
+}

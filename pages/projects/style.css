@@ -1,0 +1,133 @@
+.projects{
+    height: 100vh;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    font-family: 'Sora', sans-serif;
+}
+
+.projects h1{
+    color: #fff;
+}
+
+.container-projects{
+    display: flex;
+    gap: 80px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 450px;
+    height: 200px;
+}
+
+.project-text{
+    margin-top: 20px;
+    background-color: #181818;
+    max-width: 450px;
+    height: 200px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#banner-devgames {
+    background-color: #050B18;
+}
+
+#project-devgames{
+    border-left: 6px solid #FF455F;
+}
+
+.span-text-devgames{
+    color: #FF455F;
+}
+
+#banner-equilibrium {
+    background-color: #01B966;
+}
+
+#project-equilibrium{
+    border-left: 6px solid #01B966;
+}
+
+.span-text-equilibrium{
+    color: #01B966;
+}
+
+.btn-visualizar{
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 14px;
+    border-radius: 12px;     
+    font-family: 'Sora', sans-serif;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: fit-content;
+    text-decoration: none;
+    transition: 0.2s all ease-in-out;
+}
+
+.btn-visualizar:hover{
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #141414;
+    padding: 14px;
+    border-radius: 12px;
+    font-family: 'Sora', sans-serif;
+}
+
+@media screen and (max-width: 768px){
+    .projects{
+        height: 100%;      
+        padding-bottom: 100px;
+        width: 100%;
+    }
+
+    .title{
+        margin-top: 100px;
+    }
+
+    .container-projects{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px; 
+        align-items: center;
+        padding: 20px;
+    }
+
+    .banner{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .project-text{
+        font-size: .9rem;
+        border-radius: 0;
+        margin-top: 20px;
+        background-color: #181818;
+        height: 250px;
+        -width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        color: #fff;
+    }
+
+}
