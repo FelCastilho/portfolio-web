@@ -1,4 +1,4 @@
-.projects{
+.projects {
     height: 100vh;
     background-color: #171717;
     display: flex;
@@ -8,20 +8,20 @@
     gap: 100px;
 }
 
-.projects h1{
+.projects h1 {
     color: #fff;
     width: 1000px;
     font-size: 2rem;
 }
 
-.container-projects{
+.container-projects {
     display: flex;
     gap: 80px;
     width: 1000px;
     justify-content: space-between;
 }
 
-.banner{
+.banner {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@
     height: 200px;
 }
 
-.project-text{
+.project-text {
     margin-top: 20px;
     background-color: #141414;
     max-width: 450px;
@@ -46,11 +46,11 @@
     background-color: #ffff;
 }
 
-#project-void{
+#project-void {
     border-left: 6px solid #ffff;
 }
 
-.span-text-void{
+.span-text-void {
     color: #ffff;
 }
 
@@ -58,20 +58,20 @@
     background-color: #EBF1FF;
 }
 
-#project-alex{
+#project-alex {
     border-left: 6px solid #EBF1FF;
 }
 
-.span-text-alex{
+.span-text-alex {
     color: #EBF1FF;
 }
 
-.btn-visualizar{
+.btn-visualizar {
     margin-top: 10px;
     border: 2px solid #fff;
     color: #fff;
     padding: 14px;
-    border-radius: 12px;     
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +82,7 @@
     font-weight: bold;
 }
 
-.btn-visualizar:hover{
+.btn-visualizar:hover {
     background-color: #fff;
     border: 2px solid #fff;
     color: #141414;
@@ -90,38 +90,55 @@
     border-radius: 12px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
-    .projects{
-        height: 100%;      
-        padding-bottom: 100px;
+    .projects {
+        height: 100%;
         width: 100%;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
-    .title{
+    .title {
         margin-top: 100px;
     }
 
-    .container-projects{
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px; 
+
+    .container-projects {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        width: 100%;
         align-items: center;
-        padding: 20px;
+        justify-content: center;
     }
 
-    .banner{
+    .banner {
         width: 100%;
         border-radius: 0;
     }
 
-    .project-text{
+    .projects h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #project-void,
+    #banner-void {
+        border-left: 6px solid #ffff;
+        width: 100%;
+    }
+
+    .project-text {
         font-size: .9rem;
         border-radius: 0;
         margin-top: 20px;
         background-color: #181818;
         height: 250px;
-        -width: 100%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
