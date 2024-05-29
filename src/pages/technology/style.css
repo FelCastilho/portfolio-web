@@ -5,11 +5,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Sora', sans-serif;
+    color: #171717;
+    font-weight: 2rem;
 }
 
 .container-techs{
-    background-color: #141414;
     border-radius: 15px;
     width: 60vw;
     height: 50vh;
@@ -41,24 +41,22 @@
 }
 
 .techs-icon{
-    background-color: white;
-    border-radius: 25px;
+    background-color: #171717;
+    border-radius: 5px;
     cursor: pointer;
     padding: 10px;
-    border: 2px solid #fff;
     transition: .2s all ease-in-out;
 }
 
 .techs-icon:hover{
     background-color: #141414;
-    color: #fff;
-    border: 2px solid #fff;
+    color: #FF7300;
 }
 
 .first-group, .second-group, .third-group{
     display: flex;
     gap: 15px;
-    color: #141414;
+    color: #fff;
     font-size: 4rem;
 }
 
@@ -66,7 +64,9 @@
     margin-top: 40px;
     margin-bottom: 20px;
     text-align: center;
+    color: #171717;
 }
+
 
 @media screen and (max-width: 768px){
 

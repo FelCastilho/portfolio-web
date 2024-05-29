@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 import { FaLink } from "react-icons/fa6";
 
-import logoEquilibrium from '../../assets/logo - equilibrium.svg'
-import logoDevgames from '../../assets/logo - devgames.svg'
+import logoAlex from '../../assets/logo-alex.svg'
+import logoVoid from '../../assets/logo-void.svg'
 
 export function Projects() {
     
@@ -13,53 +13,53 @@ export function Projects() {
 
         <section className="projects" id="projects">
 
-            <h1 className="title">Meus projetos</h1>
+            <h1 className="title">Meus projetos <span className='dot'>.</span></h1>
 
             <div className="container-projects">
 
-                <div className="container-equilibrium">
+                <div className="container-alex">
 
-                    <div id="banner-equilibrium" className="banner">
-                        <img src={logoEquilibrium} alt="" />
+                    <div id="banner-alex" className="banner">
+                        <img src={logoAlex} alt="" />
                     </div>
 
-                    <div className="project-text" id="project-equilibrium">
+                    <div className="project-text" id="project-alex">
 
                         <p>
-                            Aplicativo para monitoramento de saúde e <br/>
-                            criação de metas.
+                            Portfólio desenvolvido para Alex Oliveira <br/>
+                            buscando ressaltar os traços de design.
                         </p>
 
                         <br />
 
-                        <p className="span-text-equilibrium">React Native CLI | Typescript | Firebase | Figma</p>
+                        <p className="span-text-alex">Vite | React | Typescript | GIT | Figma</p>
 
                         <br />
 
-                        <Link to='#' className="btn-visualizar"><FaLink size={20} />Vizualizar</Link>
+                        <Link to='#' className="btn-visualizar"><FaLink size={20} />Visualizar</Link>
 
                     </div>
 
 
                 </div>
 
-                <div className="container-devgames">
+                <div className="container-void">
 
-                    <div id="banner-devgames" className="banner">
-                        <img src={logoDevgames} alt="" />
+                    <div id="banner-void" className="banner">
+                        <img src={logoVoid} alt="" />
                     </div>
 
-                    <div className="project-text" id="project-devgames">
+                    <div className="project-text" id="project-void">
 
-                        <p>Site para captação de clientes com  uma interface <br /> moderna e simples.</p>
-
-                        <br />
-
-                        <p className="span-text-devgames">Vite | React | Typescript | GIT | Figma</p>
+                        <p>Site da equipe Void que busca ser minimalista <br /> e direta.</p>
 
                         <br />
 
-                        <Link to='#' className="btn-visualizar"><FaLink size={20} />Vizualizar</Link>
+                        <p className="span-text-void">Vite | React | Typescript | GIT | Figma</p>
+
+                        <br />
+
+                        <Link to='#' className="btn-visualizar"><FaLink size={20} />Visualizar</Link>
 
                     </div>
 

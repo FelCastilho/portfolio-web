@@ -19,7 +19,7 @@ export function Technology() {
                 <div className="container-text">
 
                     <div className="container-title">
-                        <h1>Minhas <br /> tecnologias</h1>
+                        <h1>Minhas tecnologias <span className='dot'>.</span></h1>
                     </div>
 
                     <div className="container-hover">{hover}</div>
@@ -31,7 +31,7 @@ export function Technology() {
                     <div className="first-group">
                         <FaReact 
                             className='techs-icon'
-                            onMouseEnter={() => setHover('Desenvolvimento em React Native e para agilizar processo de criação e desenvolvimento de sites e aplicativos híbridos.')}
+                            onMouseEnter={() => setHover('Desenvolvimento em React Native e  para agilizar processo de criação e desenvolvimento de sites e aplicativos híbridos.')}
                             onMouseLeave={() => setHover('')}
                         />
                         <SiExpo

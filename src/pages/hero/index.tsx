@@ -14,9 +14,9 @@ export function Hero() {
 
             <div className="profile-text">
 
-                <p>Olá, eu sou</p>
-                <h1>Felipe Castilho</h1>
-                <p>Desenvolvedor Web</p>
+                <p className='small-hero'>Olá, eu sou</p>
+                <h1>Felipe Coutinho</h1>
+                <p>Desenvolvedor Front end & UI designer</p>
 
                 <div className="container-btn-profile">
 

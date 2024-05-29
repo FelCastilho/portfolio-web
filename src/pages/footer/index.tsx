@@ -1,6 +1,6 @@
 import './style.css'
 import { FaRegCopyright } from "react-icons/fa";
-
+import logo from './footer-logo.svg'
 
 export function Footer() {
     return (
@@ -10,7 +10,7 @@ export function Footer() {
                 Todos os direitos reservados | 2024
             </p>
 
-            <p>Powered by: <span className="name">Felipe <span className="strong">Castilho</span></span></p>
+            <img src={logo} alt="logo portfólio" />
         </footer>
     )
 }

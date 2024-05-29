@@ -18,7 +18,9 @@ export function About() {
 
                 <div className="hero-about-text">
 
-                    <p>Me chamo Felipe Coutinho e tenho 22 anos, sou formado em Sistemas de informação.
+                    <h1>Sobre mim <span className="dot">.</span></h1>
+
+                    <p>Me chamo Felipe Coutinho e tenho 22 anos, sou <br /> formado em Sistemas de informação.
                     <br/>
                     <br/>
                     Atualmente busco me desenvolver no

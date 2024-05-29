@@ -11,6 +11,11 @@ export function Header(){
     setIsOpen(!isOpen);
   }
 
+  const handleClick = (id: string) => {
+    const element = document.getElementById(id);
+    element?.scrollIntoView({ behavior: 'smooth' });
+  }
+
   return(
     <header>
       <nav className={`navbar ${isOpen ? 'open' : ''}`}>
@@ -28,10 +33,10 @@ export function Header(){
           </div>
 
           <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-            <li><Link to='#'>Sobre mim</Link></li>
-            <li><Link to='#'>Serviços</Link></li>
-            <li><Link to='#'>Projetos</Link></li>
-            <li><Link to='#'>Tecnologias</Link></li>
+            <li><Link to='#' onClick={() => handleClick('about')}>Sobre mim</Link></li>
+            <li><Link to='#' onClick={() => handleClick('services')}>Serviços</Link></li>
+            <li><Link to='#'  onClick={() => handleClick('projects')}>Projetos</Link></li>
+            <li><Link to='#'  onClick={() => handleClick('techs')}>Tecnologias</Link></li>
           </ul>
 
         </div>

@@ -9,26 +9,13 @@ export function Services() {
 
         <section className="services" id="services">
 
-            <h1>Meus serviços</h1>
+            <h1>Meus serviços <span className="dot">.</span></h1>
 
             <div className="container-services">
 
                 <div className="service-box">
 
-                    <HiOutlineDevicePhoneMobile size={40} color='#00D1FF' className='teste'/>
-
-                    <h2>Aplicativos</h2>
-
-                    <p>
-                        Coloque sua marca no topo com <br />
-                        aplicativos modernos e intuitivos.
-                    </p>
-
-                </div>
-
-                <div className="service-box">
-
-                    <FiMonitor size={40} color='#00D1FF' className='teste'/>
+                    <FiMonitor size={40} color='#FF7300' className='teste'/>
 
                     <h2>Criação de sites</h2>
 
@@ -41,7 +28,20 @@ export function Services() {
 
                 <div className="service-box">
 
-                    <MdOutlinePalette size={40} color='#00D1FF' className='teste'/>
+                    <HiOutlineDevicePhoneMobile size={40} color='#FF7300' className='teste'/>
+
+                    <h2>Aplicativos</h2>
+
+                    <p>
+                        Coloque sua marca no topo com <br />
+                        aplicativos modernos e intuitivos.
+                    </p>
+
+                </div>
+
+                <div className="service-box">
+
+                    <MdOutlinePalette size={40} color='#FF7300' className='teste'/>
 
                     <h2>UI Design</h2>
 

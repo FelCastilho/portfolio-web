@@ -1,36 +1,37 @@
 .projects{
     height: 100vh;
-    background-color: #141414;
+    background-color: #171717;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 100px;
-    font-family: 'Sora', sans-serif;
 }
 
 .projects h1{
     color: #fff;
+    width: 1000px;
+    font-size: 2rem;
 }
 
 .container-projects{
     display: flex;
     gap: 80px;
+    width: 1000px;
+    justify-content: space-between;
 }
 
 .banner{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
     width: 450px;
     height: 200px;
 }
 
 .project-text{
     margin-top: 20px;
-    background-color: #181818;
+    background-color: #141414;
     max-width: 450px;
     height: 200px;
     line-height: 20px;
@@ -39,32 +40,30 @@
     justify-content: center;
     padding: 20px;
     color: #fff;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
 }
 
-#banner-devgames {
-    background-color: #050B18;
+#banner-void {
+    background-color: #ffff;
 }
 
-#project-devgames{
-    border-left: 6px solid #FF455F;
+#project-void{
+    border-left: 6px solid #ffff;
 }
 
-.span-text-devgames{
-    color: #FF455F;
+.span-text-void{
+    color: #ffff;
 }
 
-#banner-equilibrium {
-    background-color: #01B966;
+#banner-alex {
+    background-color: #EBF1FF;
 }
 
-#project-equilibrium{
-    border-left: 6px solid #01B966;
+#project-alex{
+    border-left: 6px solid #EBF1FF;
 }
 
-.span-text-equilibrium{
-    color: #01B966;
+.span-text-alex{
+    color: #EBF1FF;
 }
 
 .btn-visualizar{
@@ -73,7 +72,6 @@
     color: #fff;
     padding: 14px;
     border-radius: 12px;     
-    font-family: 'Sora', sans-serif;   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,6 +79,7 @@
     width: fit-content;
     text-decoration: none;
     transition: 0.2s all ease-in-out;
+    font-weight: bold;
 }
 
 .btn-visualizar:hover{
@@ -89,10 +88,10 @@
     color: #141414;
     padding: 14px;
     border-radius: 12px;
-    font-family: 'Sora', sans-serif;
 }
 
 @media screen and (max-width: 768px){
+
     .projects{
         height: 100%;      
         padding-bottom: 100px;

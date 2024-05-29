@@ -1,32 +1,36 @@
 .profile{
-    background-color: #141414;
+    background-color: #171717;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: calc(100vh - 15vh);
-    font-family: 'Sora', sans-serif;
 }
 
 .icon-img-desktop{
     max-width: 100%;
+    padding: 0.1rem 4rem;
 }
 
 .profile-text{
     color: #fff;
+    padding: 0.1rem 4rem;
 }
 
 .profile h1{
     margin-top: 5px;
-    margin-bottom: 10px;
-    font-size: 3rem;
-    letter-spacing: 1.5px;
-    color: #00D1FF;
+    font-size: 3.4rem;
+    color: #FF7300;
 }
 
 .profile p:not(:first-child) {
-    font-size: 1.7rem;
-    letter-spacing: 1.5px;
+    font-size: 1rem;
+    letter-spacing: 1.3px;
     margin-bottom: 40px;
+    color: #A9A9A9;
+}
+
+.small-hero{
+    font-size: 1.3rem;
 }
 
 .container-btn-profile{
@@ -40,11 +44,11 @@
 }
 
 .btn-curriculo{
-    border: 2px solid #0094FF;
-    color: #0094FF;
+    border: 2px solid #FF7300;
+    background-color: #FF7300;
+    color: #ffff;
     padding: 14px;
-    border-radius: 70px;     
-    font-family: 'Sora', sans-serif;   
+    border-radius: 5px;     
     font-weight: 600;
     transition: 0.2s ease-in-out all;
     display: flex;
@@ -52,21 +56,18 @@
 }
 
 .btn-curriculo:hover{
-    background-color: #0094FF;
-    border: 2px solid #0094FF;
-    color: #fff;
-    padding: 14px;
-    font-family: 'Sora', sans-serif;
-    
+    background-color: transparent;
+    border: 2px solid #FF7300;
+    color: #FF7300;
+    padding: 14px;    
 }
 
 .btn-certificados{
     border: 2px solid #fff;
     color: #fff;
     padding: 14px;
-    border-radius: 70px;
+    border-radius: 5px;
     font-weight: 600;     
-    font-family: 'Sora', sans-serif; 
     transition: 0.2s ease-in-out all;
     display: flex;
     align-items: center;  
@@ -75,39 +76,8 @@
 .btn-certificados:hover{
     background-color: #fff;
     border: 2px solid #fff;
-    color: #141414;
+    color: #171717;
     padding: 14px;
-    font-family: 'Sora', sans-serif;
-}
-
-.about{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-family: 'Sora', sans-serif;
-}
-
-.container-about{
-    background-color: #181818;
-    border-radius: 15px;
-    height: 60vh;
-    width: 65vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.hero-about-text{
-    max-width: 40%;
-}
-
-.hero-about-icons{
-    margin-top: 20px;
-    display: flex;
-    gap: 24px;
-    font-size: 2rem;
 }
 
 @media screen and (max-width: 768px){
