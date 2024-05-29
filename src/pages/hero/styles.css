@@ -92,13 +92,23 @@
     }
 
     .profile-text h1{
-        font-size: 2.5rem;
-    }   
-
-    .profile-text:not(:first-child) {
-        font-size: 1.2rem;
-        letter-spacing: 1.5px;
-        margin-bottom: 40px;
-    }
+        font-size: 2rem;
+    } 
     
+    .profile p:not(:first-child) {
+        font-size: 0.8rem;
+        letter-spacing: 1.3px;
+        margin-bottom: 40px;
+        color: #A9A9A9;
+    }
+
+    .container-btn-profile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-curriculo, .btn-certificados{
+        align-items: center;
+        justify-content: center;
+    }
 }

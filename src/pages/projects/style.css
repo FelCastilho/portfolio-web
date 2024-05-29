@@ -106,7 +106,6 @@
         margin-top: 100px;
     }
 
-
     .container-projects {
         display: flex;
         flex-direction: column;
@@ -118,17 +117,11 @@
 
     .banner {
         width: 100%;
-        border-radius: 0;
     }
 
     .projects h1 {
         text-align: center;
         font-size: 2rem;
-    }
-
-    #project-void,
-    #banner-void {
-        border-left: 6px solid #ffff;
         width: 100%;
     }
 
@@ -136,7 +129,7 @@
         font-size: .9rem;
         border-radius: 0;
         margin-top: 20px;
-        background-color: #181818;
+        background-color: #141414;
         height: 250px;
         width: 100%;
         display: flex;

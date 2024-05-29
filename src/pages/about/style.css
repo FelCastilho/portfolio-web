@@ -57,7 +57,6 @@
     }
 
     .container-about{
-        height: 60vh;
         width: 80%;
         padding: 20px;
     }
@@ -67,8 +66,7 @@
     }
 
     .hero-about-icons{
-        align-items: center;
-        justify-content: center;
+        justify-content: start;
     }
     
     .hero-about-img {

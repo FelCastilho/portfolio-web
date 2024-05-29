@@ -20,6 +20,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 0.1rem 2rem;
 }
 
 .logo-header{
@@ -94,7 +95,7 @@ header{
 
     .nav-links{
         display: none;
-        background-color: #171717;
+        background-color: #181818;
         flex-direction: column;
         position: absolute;
         top: 100%;
@@ -131,7 +132,7 @@ header{
         border-radius: 20px;
         width: 0;
         height: 4px;
-        background-color: #FF7300;
+        background-color: #00D1FF;
         display: block;
         transition: .3s ease-in-out;
     }
@@ -148,7 +149,7 @@ header{
     }
 
     .logo-header{
-        width: 100%;
+        width: 30%;
     }
 
     .nav-container{

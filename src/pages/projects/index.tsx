@@ -67,7 +67,6 @@ export function Projects() {
 
             </div>
 
-
         </section>
     )
 }
