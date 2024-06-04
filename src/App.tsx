@@ -1,24 +1,18 @@
-import './App.css'
-import { Header } from './components/header';
-import { Hero } from './pages/hero';
-import { About } from './pages/about';
-import { Services } from './pages/services';
-import { Projects } from './pages/projects';
-import { Technology } from './pages/technology';
-import { Footer } from './pages/footer';
+import { createBrowserRouter } from "react-router-dom";
 
-function App() {
-  return (
-    <>
-      <Header />
-      <Hero />
-      <About />
-      <Services />
-      <Projects />
-      <Technology />
-      <Footer />
-    </>
-  );
-}
+import Home from './home';
+import Certificate from "./certificate";
 
-export default App;
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home/>
+  },
+  {
+    path: '/certificados',
+    element: <Certificate/>
+  },
+])
+
+export { router };
+

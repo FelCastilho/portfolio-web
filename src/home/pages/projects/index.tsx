@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 import { FaLink } from "react-icons/fa6";
 
-import logoAlex from '../../assets/logo-alex.svg'
-import logoVoid from '../../assets/logo-void.svg'
+import logoAlex from '../../../assets/logo-alex.svg';
+import logoVoid from '../../../assets/logo-void.svg';
 
 export function Projects() {
     
@@ -36,7 +36,7 @@ export function Projects() {
 
                         <br />
 
-                        <Link to='#' className="btn-visualizar"><FaLink size={20} />Visualizar</Link>
+                        <Link to='https://alexdesign-portfolio.vercel.app/' target='_blank' className="btn-visualizar"><FaLink size={20} />Visualizar</Link>
 
                     </div>
 
@@ -59,7 +59,7 @@ export function Projects() {
 
                         <br />
 
-                        <Link to='#' className="btn-visualizar"><FaLink size={20} />Visualizar</Link>
+                        <Link to='https://void-studio-gules.vercel.app/' target='_blank' className="btn-visualizar"><FaLink size={20} />Visualizar</Link>
 
                     </div>
 

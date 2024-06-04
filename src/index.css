@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+}
+
+.dot{
+    color: #FF7300;
+}
+
+::-webkit-scrollbar{
+    background-color: #171717;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #FF7300;
+    border-radius: 5;
+}

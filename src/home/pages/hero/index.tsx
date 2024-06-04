@@ -3,9 +3,8 @@ import './styles.css'
 import { FaLink } from "react-icons/fa6";
 import { PiCertificate } from "react-icons/pi";
 
-import iconHero from '../../assets/hero - img.svg';
+import iconHero from '../../../assets/hero - img.svg';
 import { Link } from "react-router-dom";
-
 
 export function Hero() {
     return (
@@ -22,7 +21,7 @@ export function Hero() {
 
                     <Link to='#' className="btn-curriculo"> <FaLink size={20} /> Meu Currículo</Link>
 
-                    <Link to='#' className="btn-certificados">  <PiCertificate size={20} /> Certificados</Link>
+                    <Link to='/certificados' target='_blank' className="btn-certificados">  <PiCertificate size={20} /> Certificados</Link>
 
                 </div>
 
