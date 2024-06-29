@@ -130,7 +130,7 @@ header{
         border-radius: 20px;
         width: 0;
         height: 4px;
-        background-color: #00D1FF;
+        background-color: #FF7300;
         display: block;
         transition: .3s ease-in-out;
     }
