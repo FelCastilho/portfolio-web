@@ -2,8 +2,6 @@ import { useState } from 'react';
 import './style.css'
 
 import { FaReact, FaSass, FaFigma } from "react-icons/fa";
-import { SiExpo } from "react-icons/si";
-import { TbBrandTypescript } from "react-icons/tb";
 import { TbBrandCss3, TbBrandHtml5, TbBrandJavascript } from "react-icons/tb";
 import { LiaGitAlt } from "react-icons/lia";
 
