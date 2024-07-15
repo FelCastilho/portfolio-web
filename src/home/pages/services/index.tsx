@@ -21,7 +21,7 @@ export function Services() {
 
                     <p>
                         Transformo suas ideias em 
-                        sites <br /> sofisticados e funcionais
+                        sites <br /> sofisticados e funcionais.
                     </p>
 
                 </div>
