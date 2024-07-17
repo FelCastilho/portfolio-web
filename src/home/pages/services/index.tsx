@@ -15,33 +15,33 @@ export function Services() {
 
                 <div className="service-box">
 
-                    <FiMonitor size={40} color='#FF7300' className='teste'/>
+                    <FiMonitor size={40} color='#FF7300' className='teste' />
 
                     <h2>Criação de sites</h2>
 
                     <p>
-                        Transformo suas ideias em 
-                        sites <br /> sofisticados e funcionais.
+                        Transformo suas ideias em
+                        sites <br /> sofisticados, funcionais e responsivos.
                     </p>
 
                 </div>
 
                 <div className="service-box">
 
-                    <HiOutlineDevicePhoneMobile size={40} color='#FF7300' className='teste'/>
+                    <HiOutlineDevicePhoneMobile size={40} color='#FF7300' className='teste' />
 
-                    <h2>Aplicativos</h2>
+                    <h2>Design</h2>
 
                     <p>
-                        Coloque sua marca no topo com <br />
-                        aplicativos modernos e intuitivos.
+                        Destaque sua marca com <br />
+                        designs modernos e cativantes.
                     </p>
 
                 </div>
 
                 <div className="service-box">
 
-                    <MdOutlinePalette size={40} color='#FF7300' className='teste'/>
+                    <MdOutlinePalette size={40} color='#FF7300' className='teste' />
 
                     <h2>UI Design</h2>
 
