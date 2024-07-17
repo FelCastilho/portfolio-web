@@ -19,7 +19,7 @@ export function Hero() {
 
                 <div className="container-btn-profile">
 
-                    <Link to='#' className="btn-curriculo"> <FaLink size={20} /> Meu Currículo</Link>
+                    <Link to='https://drive.google.com/file/d/1JSSCyZPYL7D6GV-ZFAVN-fT5ZoXN36ML/view?usp=sharing' className="btn-curriculo" target='_blank'> <FaLink size={20} /> Meu Currículo</Link>
 
                     <Link to='/certificados' target='_blank' className="btn-certificados">  <PiCertificate size={20} /> Certificados</Link>
 
